@@ -1,0 +1,28 @@
+Bluetooth Commands in raspberry Pi
+==================================
+
+Change your raspberry Pi's bluetooth Name using
+	
+	sudo hciconfig hci0 name 'New Name'
+
+Log in to the Bluetooth Control using
+	
+	bluetoothctl
+
+Then
+	power on
+Then
+	scan on
+
+Then to a bluetooth device using its MAC address
+
+	pair XX:XX:XX:XX:XX:XX
+
+Then to exit out of Bluetooth Control
+ 
+	exit
+
+
+Run the script in your Raspberry Pi by using the following command
+	
+	sudo python ~/Projects/home_automation.py 
